@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="script-runner-2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="1.0537548"
+     inkscape:cx="236.77235"
+     inkscape:cy="240.5683"
+     inkscape:window-width="1920"
+     inkscape:window-height="1163"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <rect
+       x="124.89563"
+       y="187.51397"
+       width="84.496943"
+       height="128.66563"
+       id="rect2" />
+    <filter
+       id="mask-powermask-path-effect5_inverse"
+       inkscape:label="filtermask-powermask-path-effect5"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect5_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect5_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       id="mask-powermask-path-effect6_inverse"
+       inkscape:label="filtermask-powermask-path-effect6"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect6_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect6_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       id="mask-powermask-path-effect7_inverse"
+       inkscape:label="filtermask-powermask-path-effect7"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect7_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect7_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+    <filter
+       id="mask-powermask-path-effect8_inverse"
+       inkscape:label="filtermask-powermask-path-effect8"
+       style="color-interpolation-filters:sRGB"
+       height="100"
+       width="100"
+       x="-50"
+       y="-50">
+      <feColorMatrix
+         id="mask-powermask-path-effect8_primitive1"
+         values="1"
+         type="saturate"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="mask-powermask-path-effect8_primitive2"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 "
+         in="fbSourceGraphic" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2">
+      <path
+         id="path1"
+         clip-path="none"
+         mask="none"
+         style="fill:#000000"
+         d="M 252.79559 2.6291131 L 37.780456 124.13039 L 35.496572 371.09113 L 248.22784 496.54863 L 463.24299 375.0454 L 465.52686 128.08662 L 252.79559 2.6291131 z M 253.14392 26.33724 L 447.33915 141.06015 L 445.25126 366.89088 L 248.97006 478.00263 L 54.774833 363.27972 L 56.862737 137.44703 L 253.14392 26.33724 z "
+         transform="rotate(-0.40434201,1102.7152,-314.21428)" />
+    </g>
+    <path
+       id="path1-5-2"
+       style="fill:#000000"
+       inkscape:label="path1-5-2"
+       d="M 252.79533 2.6284504 L 37.779185 124.13153 L 35.495791 371.08951 L 248.22853 496.54675 L 463.24225 375.046 L 465.52566 128.08568 L 252.79533 2.6284504 z M 181.86166 144.12855 L 194.20225 144.21564 L 194.05505 165.07271 C 200.86688 165.28061 207.03055 166.28263 212.54563 168.07969 C 218.19039 169.71784 223.31953 171.75213 227.93027 174.18214 L 222.59761 191.88523 C 218.4988 189.77851 213.94847 187.9891 208.94532 186.51531 C 204.07184 184.88261 199.06494 183.8077 193.92648 183.29195 L 193.58641 231.47904 C 202.04903 234.57556 209.09696 237.90142 214.72818 241.45744 C 220.36053 244.85364 224.57326 249.12036 227.36519 254.25466 C 230.28678 259.23004 231.71742 265.71134 231.66102 273.70249 C 231.58207 284.89011 228.17575 293.97673 221.44172 300.96177 C 214.70882 307.78698 205.23096 311.95709 193.00779 313.46913 L 192.82 340.07891 L 180.47941 339.99182 L 180.66044 314.34083 C 173.59152 314.13111 166.72147 313.36257 160.04609 312.03681 C 153.37184 310.55123 147.98412 308.59616 143.88756 306.16978 L 144.03137 285.79211 C 148.38389 288.38012 153.96045 290.65603 160.75987 292.62199 C 167.55928 294.58794 174.23599 295.67463 180.79072 295.88072 L 181.13246 247.4551 C 172.66872 244.51841 165.75222 241.19113 160.37922 237.4771 C 155.00735 233.60325 150.99093 228.9397 148.32981 223.48666 C 145.79723 218.03454 144.55528 211.55456 144.60829 204.04288 C 144.66356 196.21155 146.18965 189.50797 149.18569 183.93503 C 152.31028 178.363 156.64842 173.99921 162.19847 170.84176 C 167.74964 167.52448 174.25372 165.651 181.71279 165.22414 L 181.86166 144.12855 z M 259.93775 168.57551 L 384.29444 246.38186 L 259.01394 322.73049 L 259.93775 168.57551 z M 181.58251 183.68425 C 176.95259 183.97124 173.15413 184.984 170.18516 186.72119 C 167.21732 188.29855 164.95178 190.44041 163.39005 193.14652 C 161.95686 195.85353 161.22777 198.96476 161.20295 202.48087 C 161.17363 206.63627 161.72636 210.2358 162.86184 213.2806 C 164.127 216.16649 166.23083 218.65869 169.17273 220.75726 C 172.11576 222.696 176.15247 224.48412 181.28304 226.11864 L 181.58251 183.68425 z M 193.43754 252.57464 L 193.13977 294.76816 C 200.73076 293.86275 206.27383 291.74402 209.76826 288.41223 C 213.26382 284.92062 215.03212 280.45764 215.07047 275.02366 C 215.09867 271.02808 214.47919 267.74758 213.21177 265.18134 C 211.94548 262.45528 209.71152 260.12191 206.5114 258.18136 C 203.43982 256.24171 199.08116 254.37261 193.43754 252.57464 z "
+       transform="matrix(0.8093444,-0.00589393,0.00571171,0.83516318,49.499781,51.326023)" />
+  </g>
+</svg>

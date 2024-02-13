@@ -1,0 +1,45 @@
+{
+  "name": "script-runner",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "lint": "ESLINT_USE_FLAT_CONFIG=true npx eslint ."
+  },
+  "overrides": {
+    "ansi-to-react": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    }
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.5.2",
+    "@tauri-apps/api": "^1.4.0",
+    "ansi-to-react": "^6.1.6",
+    "globals": "^13.21.0",
+    "lodash.debounce": "^4.0.8",
+    "monaco-themes": "^0.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.4.0",
+    "@types/lodash.debounce": "^4.0.7",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.49.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.4",
+    "vite-plugin-monaco-editor": "^1.1.0"
+  }
+}
