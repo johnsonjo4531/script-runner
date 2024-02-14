@@ -92,6 +92,7 @@ button {
   flex-direction: row;
   padding: 0.25em;
   color: white;
+  z-index: 3;
 }
 
 .controls {
