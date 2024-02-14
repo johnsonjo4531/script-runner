@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./style.css";
 import debounce from "lodash.debounce";
 import { GridResizeHandler } from "./Resizer";
 import Ansi from "ansi-to-react";
@@ -7,6 +6,8 @@ import Editor, { DiffEditor, useMonaco } from "@monaco-editor/react";
 import type { editor } from "monaco-editor";
 import { invoke } from "@tauri-apps/api";
 import themelist from "monaco-themes/themes/themelist.json";
+import { colord } from "colord";
+import "./style.css";
 
 type DefaultThemes = "vs-dark" | "light";
 type Themes = keyof typeof themelist | "vs-dark" | "light";
@@ -131,6 +132,7 @@ function useLocalState<T>(
 
 export default function App() {
   const [output, setOutput] = useState("");
+  const editorRef = useRef<HTMLDivElement>(null);
   const [language, setLanguage] = useLocalState<KnownLanguages>(
     "language",
     CommandType.Node,
@@ -189,7 +191,20 @@ export default function App() {
       }
       if (monaco && "setTheme" in monaco?.editor) {
         monaco?.editor.setTheme(theme);
-        document.querySelector("");
+      }
+      const editor = document.getElementsByClassName("monaco-editor")[0];
+      if (editor) {
+        const light = colord(
+          getComputedStyle(editor).backgroundColor
+        ).isLight();
+        console.log({
+          light,
+          editorColor: getComputedStyle(editor).backgroundColor,
+        });
+        document.body.style.setProperty(
+          "--text-color",
+          light ? "#000000" : "#ffffff"
+        );
       }
     })();
   }, [theme, monaco, setTheme]);
@@ -232,7 +247,7 @@ export default function App() {
 
   return (
     <div className="app-script-runner">
-      <div className="code-editor editor">
+      <div ref={editorRef} className="code-editor editor">
         <Editor
           defaultValue={code}
           theme={theme}

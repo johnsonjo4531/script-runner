@@ -1,5 +1,6 @@
 body {
-  --accent-color: seagreen;
+  --accent-color: #000522;
+  --text-color: #fff;
 }
 
 .app-script-runner {
@@ -68,7 +69,6 @@ button {
   top: 0;
   bottom: 0;
   width: 10px;
-  background-color: black;
 }
 
 .editor {
@@ -85,14 +85,22 @@ button {
   left: 0;
   right: 0;
   z-index: 1;
-  background: var(--accent-color);
+  background-color: rgba(0, 0, 0, 0.075);
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
   padding: 0.25em;
-  color: white;
+  color: var(--text-color);
   z-index: 3;
+}
+
+[data-resize="ns"] {
+  color: var(--text-color);
+}
+
+[data-resize="ew"] {
+  color: var(--text-color);
 }
 
 .controls {
